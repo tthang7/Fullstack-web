@@ -1,19 +1,19 @@
-<mxfile host="app.diagrams.net" modified="2022-05-21T02:35:35.436Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36 Edg/101.0.1210.39" etag="WKw6340bBbEzUz3ajojw" version="18.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-21T02:39:01.650Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36 Edg/101.0.1210.39" etag="W4VUKWcmJJZIAoRzpf2V" version="18.0.8" type="github">
   <diagram id="xywsq5rU2DJ8rIy3QOnQ" name="Page-1">
-    <mxGraphModel dx="874" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="976" dy="633" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="0tv8DI80XoGdA8b9kSTk-1" value="AWS CodeCommit" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.codecommit;" vertex="1" parent="1">
+        <mxCell id="0tv8DI80XoGdA8b9kSTk-1" value="AWS CodeCommit" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.codecommit;" parent="1" vertex="1">
           <mxGeometry x="130" y="130" width="80" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="0tv8DI80XoGdA8b9kSTk-4" value="invoke with CloudWatch" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0tv8DI80XoGdA8b9kSTk-2" target="0tv8DI80XoGdA8b9kSTk-3">
+        <mxCell id="0tv8DI80XoGdA8b9kSTk-4" value="invoke with CloudWatch" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="0tv8DI80XoGdA8b9kSTk-2" target="0tv8DI80XoGdA8b9kSTk-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0tv8DI80XoGdA8b9kSTk-2" value="Development merged to master branch:&lt;br&gt;Create Pull Request" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="0tv8DI80XoGdA8b9kSTk-2" value="Development merged to master branch:&lt;br&gt;Create Pull Request" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="210" y="140" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0tv8DI80XoGdA8b9kSTk-6" value="cloudwatch Event trigger" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0tv8DI80XoGdA8b9kSTk-3" target="0tv8DI80XoGdA8b9kSTk-5">
+        <mxCell id="0tv8DI80XoGdA8b9kSTk-6" value="cloudwatch Event trigger" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="0tv8DI80XoGdA8b9kSTk-3" target="0tv8DI80XoGdA8b9kSTk-5" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="560" y="280" />
@@ -21,7 +21,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="0tv8DI80XoGdA8b9kSTk-9" value="trigger codebuild as target&lt;br&gt;and start build" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0tv8DI80XoGdA8b9kSTk-3" target="0tv8DI80XoGdA8b9kSTk-8">
+        <mxCell id="0tv8DI80XoGdA8b9kSTk-9" value="trigger codebuild as target&lt;br&gt;and start build" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="0tv8DI80XoGdA8b9kSTk-3" target="0tv8DI80XoGdA8b9kSTk-8" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="560" y="280" />
@@ -29,28 +29,28 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="0tv8DI80XoGdA8b9kSTk-3" value="Amazon CloudWatch" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.cloudwatch;" vertex="1" parent="1">
+        <mxCell id="0tv8DI80XoGdA8b9kSTk-3" value="Amazon CloudWatch" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.cloudwatch;" parent="1" vertex="1">
           <mxGeometry x="520" y="115" width="80" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="0tv8DI80XoGdA8b9kSTk-7" value="comment on pull request&lt;br&gt;build start" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.449;entryY=1.067;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="0tv8DI80XoGdA8b9kSTk-5" target="0tv8DI80XoGdA8b9kSTk-2">
+        <mxCell id="0tv8DI80XoGdA8b9kSTk-7" value="comment on pull request&lt;br&gt;build start" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.449;entryY=1.067;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="0tv8DI80XoGdA8b9kSTk-5" target="0tv8DI80XoGdA8b9kSTk-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0tv8DI80XoGdA8b9kSTk-5" value="AWS Lambda" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.lambda;" vertex="1" parent="1">
+        <mxCell id="0tv8DI80XoGdA8b9kSTk-5" value="AWS Lambda" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.lambda;" parent="1" vertex="1">
           <mxGeometry x="350" y="340" width="80" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="0tv8DI80XoGdA8b9kSTk-11" value="Build Success/Failure" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0tv8DI80XoGdA8b9kSTk-8" target="0tv8DI80XoGdA8b9kSTk-10">
+        <mxCell id="0tv8DI80XoGdA8b9kSTk-11" value="Build Success/Failure" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="0tv8DI80XoGdA8b9kSTk-8" target="0tv8DI80XoGdA8b9kSTk-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0tv8DI80XoGdA8b9kSTk-8" value="AWS CodeBuild" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.codebuild;" vertex="1" parent="1">
+        <mxCell id="0tv8DI80XoGdA8b9kSTk-8" value="AWS CodeBuild" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.codebuild;" parent="1" vertex="1">
           <mxGeometry x="680" y="335" width="80" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="0tv8DI80XoGdA8b9kSTk-14" value="cloudwatch event trigger" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0tv8DI80XoGdA8b9kSTk-10" target="0tv8DI80XoGdA8b9kSTk-12">
+        <mxCell id="0tv8DI80XoGdA8b9kSTk-14" value="cloudwatch event trigger" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="0tv8DI80XoGdA8b9kSTk-10" target="0tv8DI80XoGdA8b9kSTk-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0tv8DI80XoGdA8b9kSTk-10" value="Amazon CloudWatch" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.cloudwatch;" vertex="1" parent="1">
+        <mxCell id="0tv8DI80XoGdA8b9kSTk-10" value="Amazon CloudWatch" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.cloudwatch;" parent="1" vertex="1">
           <mxGeometry x="680" y="540" width="80" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="0tv8DI80XoGdA8b9kSTk-15" value="Update Pull Request with Build outcome" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0tv8DI80XoGdA8b9kSTk-12" target="0tv8DI80XoGdA8b9kSTk-2">
+        <mxCell id="0tv8DI80XoGdA8b9kSTk-15" value="Update Pull Request with Build outcome" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="0tv8DI80XoGdA8b9kSTk-12" target="0tv8DI80XoGdA8b9kSTk-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="970" y="90" />
@@ -58,8 +58,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="0tv8DI80XoGdA8b9kSTk-12" value="AWS Lambda" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.lambda;" vertex="1" parent="1">
+        <mxCell id="0tv8DI80XoGdA8b9kSTk-12" value="AWS Lambda" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.lambda;" parent="1" vertex="1">
           <mxGeometry x="930" y="545" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="BQY0IYdK_t_XOAy1CIlX-1" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;a href=&quot;https://aws.amazon.com/blogs/devops/validating-aws-codecommit-pull-requests-with-aws-codebuild-and-aws-lambda/&quot;&gt;Validating AWS CodeCommit Pull Requests with AWS CodeBuild and AWS Lambda | AWS DevOps Blog (amazon.com)&lt;/a&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="690" width="550" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
